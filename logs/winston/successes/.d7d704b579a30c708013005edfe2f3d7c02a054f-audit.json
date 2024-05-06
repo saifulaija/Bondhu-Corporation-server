@@ -1,0 +1,75 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\.d7d704b579a30c708013005edfe2f3d7c02a054f-audit.json",
+    "files": [
+        {
+            "date": 1714798174879,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-04-05-10-success.log",
+            "hash": "dd36726666cd911e4dedf005a8365fb84816904638030efe744633236b3d184d"
+        },
+        {
+            "date": 1714806431030,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-04-05-13-success.log",
+            "hash": "cd33388467d06d698581dd5c7ce1a5c3cecfbb9b8bbfe6bf209e77545e413870"
+        },
+        {
+            "date": 1714818787862,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-04-05-16-success.log",
+            "hash": "13110a7a75be5f7bcc6b69fce2d22a5b8b060b330425192a2cefae884a66afef"
+        },
+        {
+            "date": 1714821339253,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-04-05-17-success.log",
+            "hash": "6975e35c2c6048c992c5e4bfa48d5cd828872299e9e3a7e9bca65172d9585114"
+        },
+        {
+            "date": 1714841924444,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-04-05-22-success.log",
+            "hash": "025f04239fcb9e0ce93a49ca43a567a28825eccc2d03dd3d1ee04b40aabb8494"
+        },
+        {
+            "date": 1714842088790,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-04-05-23-success.log",
+            "hash": "e5a2b913096645c4e79877a3fe85f4bce564f02d9fbb06fc71de018b883c2943"
+        },
+        {
+            "date": 1714845871940,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-05-05-00-success.log",
+            "hash": "10bb572d91b8c6cc871940b4af008a1e646611f2319a33e1bb1fd374723e7686"
+        },
+        {
+            "date": 1714883120010,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-05-05-10-success.log",
+            "hash": "9912c349df9b06d1f9b53d14441c3cb827e2f5fd37ceb8c56c72957c70da02b1"
+        },
+        {
+            "date": 1714891646351,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-05-05-12-success.log",
+            "hash": "2a258073efdc6f8c9f812ec2fe5e96b321635b9e9a2ed46212e4ce634a8564e5"
+        },
+        {
+            "date": 1714908801863,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-05-05-17-success.log",
+            "hash": "8e17bdb30f91a57b57ab9c492fe002e6be7835c0921617a5c068f367acf288ed"
+        },
+        {
+            "date": 1714969198420,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-06-05-10-success.log",
+            "hash": "67c03513b061b9702a0241b1110a55162d4efa8189703d4177a3447e1a1fcb94"
+        },
+        {
+            "date": 1714995014981,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-06-05-17-success.log",
+            "hash": "8febb827059751d6e533ec40b525d884c64e15aec920dc91b037c04698d7fb32"
+        },
+        {
+            "date": 1715001354106,
+            "name": "I:\\Client Project\\BONDHU CORPORATION\\BondhuCorporation-Server\\logs\\winston\\successes\\phu-2024-06-05-19-success.log",
+            "hash": "32cf795d53d69889dc94d9868aa2c379a0fd8e5c0ce86f9cc3af6551366b0955"
+        }
+    ],
+    "hashType": "sha256"
+}
