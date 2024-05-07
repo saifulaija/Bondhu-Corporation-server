@@ -19,7 +19,8 @@ const createDoctor = catchAsync(async (req: Request, res: Response, next: NextFu
 
 
 const createAdmin = catchAsync(async (req: Request, res: Response) => {
-  //const { admin, ...userData } = req.body;
+  const { admin, ...userData } = req.body;
+  console.log(admin)
   const result = await UserServices.createAdmin(req);
   sendResponse(res, {
     statusCode: httpStatus.OK,

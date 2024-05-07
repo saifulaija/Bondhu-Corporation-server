@@ -185,15 +185,19 @@ model MedicalReport {
 }
 
 model Admin {
-  id            String   @id @unique @default(uuid())
-  email         String   @unique
+  id            String         @id @unique @default(uuid())
+  email         String         @unique
   name          String
   profilePhoto  String?
-  address String?
+  address       String?
   contactNumber String?
-  isDeleted     Boolean  @default(false)
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
+  gender        Gender?
+  maritalStatus MaritalStatus?
+  qualification String?
+
+  isDeleted Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   user User @relation(references: [email], fields: [email])
 
@@ -312,9 +316,8 @@ enum UserRole {
   DOCTOR
   PATIENT
   SUPER_ADMIN
-  SUBSCRIBER 
+  SUBSCRIBER
   sells_manager
-  
 }
 
 enum UserStatus {

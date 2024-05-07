@@ -21,11 +21,18 @@ const createDoctor = z.object({
 const createAdmin = z.object({
   password: z.string(),
   admin: z.object({
-    email: z.string().email(),
     name: z.string(),
-    contactNumber: z.string()
+    email: z.string().email(),
+    address:z.string(),
+    gender:z.enum(['MALE', 'FEMALE']),
+    qualification:z.string(),
+    maritalStatus:z.enum([ "MARRIED","UNMARRIED"]),
+    contactNumber: z.string().optional(),
+    profilePhoto:z.string().optional()
   })
 });
+
+
 
 const createPatient = z.object({
   password: z.string(),

@@ -46,10 +46,15 @@ const createAdmin = async (req: Request): Promise<Admin> => {
 
   if (file) {
     const uploadedProfileImage = await FileUploadHelper.uploadToCloudinary(file);
+  
     req.body.admin.profilePhoto = uploadedProfileImage?.secure_url;
   }
 
+  const data= req.body.admin;
+  console.log(data)
+
   const hashPassword = await hashedPassword(req.body.password);
+  console.log(hashPassword)
   const result = await prisma.$transaction(async transactionClient => {
     const newUser = await transactionClient.user.create({
       data: {
